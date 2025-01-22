@@ -15,6 +15,11 @@ const skillItems = [
     desc: "Design tool",
   },
   {
+    imgSrc: "/images/html.svg",
+    label: "HTML",
+    desc: "User Interface",
+  },
+  {
     imgSrc: "/images/css3.svg",
     label: "CSS",
     desc: "User Interface",
@@ -23,6 +28,16 @@ const skillItems = [
     imgSrc: "/images/javascript.svg",
     label: "JavaScript",
     desc: "Interaction",
+  },
+  {
+    imgSrc: "/images/typescript.svg",
+    label: "Typescript",
+    desc: "Interaction",
+  },
+  {
+    imgSrc: "/images/django.svg",
+    label: "Django",
+    desc: "Web Server",
   },
   {
     imgSrc: "/images/nodejs.svg",
@@ -35,13 +50,18 @@ const skillItems = [
     desc: "Node Framework",
   },
   {
-    imgSrc: "/images/mongodb.svg",
-    label: "MongoDB",
+    imgSrc: "/images/postgresql.svg",
+    label: "PostgreSQL",
     desc: "Database",
   },
   {
     imgSrc: "/images/react.svg",
     label: "React",
+    desc: "Framework",
+  },
+  {
+    imgSrc: "/images/expo.svg",
+    label: "React Native",
     desc: "Framework",
   },
   {

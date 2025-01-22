@@ -14,8 +14,8 @@ const sitemap = [
     href: "#about",
   },
   {
-    label: "Work",
-    href: "#work",
+    label: "Works",
+    href: "#works",
   },
   {
     label: "Reviews",
@@ -30,23 +30,19 @@ const sitemap = [
 const socials = [
   {
     label: "GitHub",
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://github.com/Kolade-dotcom",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/codewithsadee",
+    href: "https://www.linkedin.com/in/akolade-salako/",
   },
   {
     label: "Twitter X",
-    href: "https://x.com/codewithsadee_",
+    href: "https://x.com/sal_kolade",
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
-  },
-  {
-    label: "CodePen",
-    href: "https://codepen.io/codewithsadee",
+    href: "https://www.instagram.com/akoladesalako/",
   },
 ];
 

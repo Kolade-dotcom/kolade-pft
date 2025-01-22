@@ -6,7 +6,7 @@
 const aboutItems = [
   {
     label: "Project done",
-    number: 35,
+    number: 25,
   },
   {
     label: "Years of experience",
@@ -20,11 +20,12 @@ const About = () => {
       <div className="container">
         <div className="reveal-up rounded-2xl bg-zinc-800/50 p-7 md:p-12">
           <p className="mb-4 text-zinc-300 md:mb-8 md:max-w-[60ch] md:text-xl">
-            Welcome! I&apos;m Kolade, a professional web developer with a knack
-            for crafting visually stunning and highly functional websites.
-            Combining creativity and technical expertise. I transform your
-            vision into digital masterpiece that excels in both appearance and
-            performance.
+            Welcome! I&apos;m Kolade, a professional full-stack developer
+            specializing in React and Next.js web applications. Combining
+            creativity and technical expertise, I craft powerful digital
+            experiences across web and mobile platforms using React Native with
+            Expo. I transform your vision into seamless, high-performance
+            solutions that look as amazing as they function.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 md:gap-7">

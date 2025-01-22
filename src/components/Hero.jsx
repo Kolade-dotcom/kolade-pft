@@ -4,6 +4,11 @@
  */
 
 /**
+ * Media
+ */
+// import resumeExample from "/resume-example.pdf";
+
+/**
  * Components
  */
 import { ButtonOutline, ButtonPrimary } from "./Button.jsx";
@@ -16,10 +21,10 @@ const Hero = () => {
           <div className="flex items-center gap-3">
             <figure className="img-box h-9 w-9 rounded-lg">
               <img
-                src="/images/avatar.png"
+                src="/images/avatar-pic.png"
                 width={40}
                 height={40}
-                alt="John Doe portrait"
+                alt="Akolade Salako avatar"
                 className="img-cover"
               />
             </figure>
@@ -33,11 +38,15 @@ const Hero = () => {
           </div>
 
           <h2 className="headline-1 mb-8 mt-5 max-w-[15ch] sm:max-w-[20ch] lg:mb-10 lg:max-w-[15ch]">
-            Building Scalable Modern Websites for the Future
+            Building Scalable Modern Apps for the Future
           </h2>
 
           <div className="flex items-center gap-3">
-            <ButtonPrimary label={"Download CV"} icon={"download"} />
+            <ButtonPrimary
+              label={"Download CV"}
+              icon={"download"}
+              // onClick={() => window.open(resumeExample)}
+            />
             <ButtonOutline
               href={"#about"}
               label={"Scroll down"}
@@ -47,12 +56,12 @@ const Hero = () => {
         </div>
 
         <div className="hidden lg:block">
-          <figure className="ml-auto w-full max-w-[480] overflow-hidden rounded-[60px] bg-gradient-to-t from-sky-400 via-sky-400/40 via-25% to-65%">
+          <figure className="ml-auto w-full max-w-[480] overflow-hidden rounded-[60px] bg-gradient-to-t from-sky-400 via-sky-400/40 via-20% to-45%">
             <img
-              src="/images/avatar.png"
+              src="/images/hero-banner1.png"
               width={656}
               height={800}
-              alt="John Doe"
+              alt="Akolade Salako"
               className="w-full"
             />
           </figure>

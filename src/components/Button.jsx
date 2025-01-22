@@ -17,10 +17,16 @@ export const ButtonPrimary = ({
   label,
   icon,
   className,
+  onClick,
 }) => {
   if (href) {
     return (
-      <a href={href} target={target} className={`btn btn-primary ${className}`}>
+      <a
+        href={href}
+        target={target}
+        onClick={onClick}
+        className={`btn btn-primary ${className}`}
+      >
         {label}
         {icon ? (
           <span className={"material-symbols-rounded"} aria-hidden="true">
@@ -31,7 +37,7 @@ export const ButtonPrimary = ({
     );
   } else {
     return (
-      <button className={`btn btn-primary ${className}`}>
+      <button className={`btn btn-primary ${className}`} onClick={onClick}>
         {label}
         {icon ? (
           <span className={"material-symbols-rounded"} aria-hidden="true">
@@ -49,6 +55,7 @@ ButtonPrimary.propTypes = {
   label: PropTypes.string.isRequired,
   className: PropTypes.string,
   icon: PropTypes.string,
+  onClick: PropTypes.func,
 };
 
 /**
