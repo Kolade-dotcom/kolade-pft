@@ -22,7 +22,7 @@ const works = [
     projectLink: "https://socially-sand.vercel.app/",
   },
   {
-    imgSrc: "/images/aora.jpg",
+    imgSrc: "/images/aora.JPG",
     title: "AI video sharing app",
     tags: ["Development", "API", "Mobile"],
     projectLink: "https://github.com/Kolade-dotcom/aora",
