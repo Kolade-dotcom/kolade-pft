@@ -10,13 +10,13 @@ import ProjectCard from "./ProjectCard.jsx";
 
 const works = [
   {
-    imgSrc: "/images/project-1.jpg",
-    title: "Full stack music app",
+    imgSrc: "/images/project-reelix.png",
+    title: "Movie Trailers App",
     tags: ["API", "MVC", "Development"],
-    projectLink: "https://musify-5al0.onrender.com/",
+    projectLink: "https://reelix-b4f0.onrender.com/",
   },
   {
-    imgSrc: "/images/socially.png",
+    imgSrc: "/images/project-socially.png",
     title: "Full stack social app",
     tags: ["API", "web-design", "Development"],
     projectLink: "https://socially-sand.vercel.app/",
@@ -40,11 +40,17 @@ const works = [
     projectLink: "https://github.com/Kolade-dotcom/ryde",
   },
   {
-    imgSrc: "/images/eccentric.png",
-    title: "AI image transformation app",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://eccentric-eight.vercel.app/",
+    imgSrc: "/images/project-1.jpg",
+    title: "Full stack music app",
+    tags: ["API", "MVC", "Development"],
+    projectLink: "https://musify-5al0.onrender.com/",
   },
+  // {
+  //   imgSrc: "/images/project-spotlight.png",
+  //   title: "Full stack social app (Mobile)",
+  //   tags: ["Mobile", "MVC", "Development"],
+  //   projectLink: "https://github.com/Kolade-dotcom/blogger",
+  // },
 ];
 
 const Works = () => {
