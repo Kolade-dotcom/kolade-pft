@@ -45,12 +45,12 @@ const works = [
     tags: ["API", "MVC", "Development"],
     projectLink: "https://musify-5al0.onrender.com/",
   },
-  // {
-  //   imgSrc: "/images/project-spotlight.png",
-  //   title: "Full stack social app (Mobile)",
-  //   tags: ["Mobile", "MVC", "Development"],
-  //   projectLink: "https://github.com/Kolade-dotcom/blogger",
-  // },
+  {
+    imgSrc: "/images/project-spotlight.png",
+    title: "Full stack social app (Mobile)",
+    tags: ["Mobile", "MVC", "Development"],
+    projectLink: "https://github.com/Kolade-dotcom/spotlight",
+  },
 ];
 
 const Works = () => {
